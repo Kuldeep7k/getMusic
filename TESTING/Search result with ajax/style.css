@@ -1,0 +1,23 @@
+a:hover {
+
+    cursor: pointer;
+ 
+    background-color: yellow;
+ 
+ }
+ .searchResults {
+    position:absolute; 
+    background-color: white; 
+    border: 1px solid black; 
+    z-index: 50;
+    display: none;
+  }
+  
+  .inputRow {
+    position:relative;
+    overflow:auto;
+  }
+  
+  input {
+    width: 98%;
+  }
